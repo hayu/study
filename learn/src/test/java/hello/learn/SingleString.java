@@ -1,18 +1,11 @@
-/********************************************************************************
- * Copyright (c) 2015-2017 GE Digital. All rights reserved.                     *
- *                                                                              *
- * The copyright to the computer software herein is the property of GE Digital. *
- * The software may be used and/or copied only with the written permission of   *
- * GE Digital or in accordance with the terms and conditions stipulated in the  *
- * agreement/contract under which the software has been supplied.               *
- ********************************************************************************/
-
 package hello.learn;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Stack;
 
 import org.junit.jupiter.api.Test;
 
@@ -27,12 +20,14 @@ public class SingleString {
   static final char DEFAULT_CHAR = '\u0000';
 
   /**
+   * Given a string, find its first duplicate characters.
+   *
    * Use HashMap for efficiency.
    */
   @Test
   public void firstDupe() {
     String[] inputs = {"", "ABCA", "BCBCA", "ABC"};
-    String[] expected = {null, "A", "B", null};
+    String[] expected = {"", "A", "B", ""};
     for (int i = 0, size = inputs.length; i < size; i++) {
       assertEquals(expected[i], firstDupe(inputs[i]));
     }
@@ -45,17 +40,19 @@ public class SingleString {
       }
       map.put(c, Boolean.TRUE);
     }
-    return null;
+    return "";
   }
 
   /**
+   * Given a string, find its first unique character.
+   *
    * Use an int array where index is the char of the character in the string. First pass to accumulate the counts of
    * any given char. Then 2nd pass to pick out the first char whose count value is one.
    */
   @Test
   public void firstNonDupe() {
     String[] inputs = {"", "geeksforgeeks", "geeksforgeek", "geeksforgeeksfor", "geeksrofgeeks"};
-    String[] expected = {null, "f", "s", null, "r"};
+    String[] expected = {"", "f", "s", "", "r"};
     for (int i = 0, size = inputs.length; i < size; i++) {
       assertEquals(expected[i], firstNonDupe(inputs[i]));
     }
@@ -71,10 +68,12 @@ public class SingleString {
       }
     }
 
-    return null;
+    return "";
   }
 
   /**
+   * Given a string, check if its characters are all unique.
+   *
    * The special case of a string longer that the 256 possible ASCII must have duplicate.
    * Use an int array to keep count of each char as one walks the string. Short-circuit to return <code>false</code> if
    * any count is greater than one.
@@ -110,6 +109,8 @@ public class SingleString {
   }
 
   /**
+   * Given a string, find the first longest repeat sequence.
+   *
    * Walk a test string on paper to figure out what and how many variables are needed to keep track of
    * <ul>
    *   <li>Current character</li>
@@ -156,6 +157,95 @@ public class SingleString {
     }
 
     return null;
+  }
+
+  /**
+   * Given a string, find all duplicate characters and return them as a string while preserving their orders in
+   * the original string.
+   *
+   * Use LinkedHashMap which preserves insertion order.
+   */
+  @Test
+  public void findAllDuplicateChars() {
+    String[] inputs = {"", "great", "geeksforgeeks", "geeksforgeek", "geeksforgeeksfor", "geeksrofgeeks"};
+    String[] expected = {"", "", "geks", "gek", "geksfor", "geks"};
+    for (int i = 0, size = inputs.length; i < size; i++) {
+      assertEquals(expected[i], findAllDuplicateChars(inputs[i]));
+    }
+  }
+  private String findAllDuplicateChars(String input) {
+    Map<String, Integer> map = new LinkedHashMap<>();
+    for (String c : input.split("")) {
+      if (map.get(c) == null) {
+        map.put(c, 1);
+      } else {
+        map.put(c, map.get(c).intValue() + 1);
+      }
+    }
+    StringBuilder rslt = new StringBuilder();
+    for (Map.Entry<String, Integer> e : map.entrySet()) {
+      if (e.getValue().intValue() > 1) {
+        rslt.append(e.getKey());
+      }
+    }
+    return rslt.toString();
+  }
+
+  /**
+   * Return the count of a given charcter in a string without using any loop.
+   *
+   * Replace the given character with a blank in the string.
+   */
+  @Test
+  public void countGivenCharacterInStringWithoutUsingLoop() {
+    String[] inputs = {"", "great", "geeksforgeeks", "solid", "GREAT"};
+    String given = "e";
+    int[] expected = {0, 1, 4, 0, 0};
+    for (int i = 0, size = inputs.length; i < size; i++) {
+      assertEquals(expected[i], countGivenCharacterInStringWithoutUsingLoop(inputs[i], given));
+    }
+  }
+  private int countGivenCharacterInStringWithoutUsingLoop(String input, String givenChar) {
+    return input.length() - input.replace(givenChar, "").length();
+  }
+
+  /**
+   * Return the count of a given charcter in a string without using any loop.
+   *
+   * Replace the given character with a blank in the string.
+   */
+  @Test
+  public void reverse() {
+    String[] inputs = {"", "great", "geeksforgeeks", "solid", "GREAT"};
+    String[] expected = {"", "taerg", "skeegrofskeeg", "dilos", "TAERG"};
+    for (int i = 0, size = inputs.length; i < size; i++) {
+      assertEquals(expected[i], reverseUsingStack(inputs[i]));
+      assertEquals(expected[i], reverseUsingRecursion(inputs[i]));
+    }
+  }
+  private String reverseUsingStack(String input) {
+    Stack<String> stack = new Stack<>();
+    for (String c : input.split("")) {
+      stack.push(c);
+    }
+    StringBuilder rslt = new StringBuilder();
+    while (!stack.isEmpty()) {
+      rslt.append(stack.pop());
+    }
+    return rslt.toString();
+  }
+  private String reverseUsingRecursion(String input) {
+    // base case
+    if (input.length() <= 1) {
+      return input;
+    }
+
+    return reverseUsingRecursion(input.substring((1))) + // subproblem
+        input.charAt(0);
+  }
+
+  public void findAllPermutations() {
+
   }
 
 }

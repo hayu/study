@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c1d415a-b4d4-4fd3-9893-bdcbb9ed8f4f" name="Default" comment="" />
+    <list default="true" id="5c1d415a-b4d4-4fd3-9893-bdcbb9ed8f4f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/learn/LongestPalindromeSubstring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hello/learn/SingleString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hello/learn/SingleString.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,42 +26,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SingleString.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SingleString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/hello/learn/SingleString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="119" column="73" selection-start-line="119" selection-start-column="73" selection-end-line="119" selection-end-column="73" />
+            <state relative-caret-position="760">
+              <caret line="215" column="5" lean-forward="true" selection-start-line="215" selection-start-column="5" selection-end-line="215" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#SingleString#0" />
+                <element signature="docComment;method#firstDupe#0;class#SingleString#0" />
+                <element signature="method#firstDupe#0;class#SingleString#0" />
+                <element signature="method#firstDupe#1;class#SingleString#0" />
+                <element signature="docComment;method#firstNonDupe#0;class#SingleString#0" />
+                <element signature="method#firstNonDupe#0;class#SingleString#0" />
+                <element signature="method#firstNonDupe#1;class#SingleString#0" />
+                <element signature="docComment;method#isAllCharsUnique#0;class#SingleString#0" />
+                <element signature="method#isAllCharsUnique#0;class#SingleString#0" />
+                <element signature="method#isAllCharsUnique#1;class#SingleString#0" />
+                <element signature="docComment;method#firstLongestRepeatSequence#0;class#SingleString#0" />
+                <element signature="method#firstLongestRepeatSequence#0;class#SingleString#0" />
+                <element signature="method#firstLongestRepeatSequence#1;class#SingleString#0" />
+                <element signature="docComment;method#findAllDuplicateChars#0;class#SingleString#0" />
+                <element signature="method#findAllDuplicateChars#0;class#SingleString#0" />
+                <element signature="method#findAllDuplicateChars#1;class#SingleString#0" />
+                <element signature="docComment;method#countGivenCharacterInStringWithoutUsingLoop#0;class#SingleString#0" />
+                <element signature="method#countGivenCharacterInStringWithoutUsingLoop#0;class#SingleString#0" />
+                <element signature="method#countGivenCharacterInStringWithoutUsingLoop#1;class#SingleString#0" />
+                <element signature="docComment;method#reverse#0;class#SingleString#0" />
+                <element signature="method#reverse#0;class#SingleString#0" />
+                <element signature="method#reverseUsingStack#0;class#SingleString#0" />
+                <element signature="method#reverseUsingRecursion#0;class#SingleString#0" />
+                <element signature="method#findAllPermutations#0;class#SingleString#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scratch_4.java" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.java">
+      <file leaf-file-name="LongestPalindromeSubstring.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/hello/learn/LongestPalindromeSubstring.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CharSequence.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/CharSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1599">
-              <caret line="129" column="29" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="29" />
+            <state relative-caret-position="86">
+              <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+              <folding>
+                <element signature="docComment;class#LongestPalindromeSubstring#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,6 +82,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -77,6 +93,8 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_4.java" />
         <option value="$PROJECT_DIR$/src/test/java/hello/learn/StringQuestions.java" />
         <option value="$PROJECT_DIR$/src/test/java/hello/learn/SingleString.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_5.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hello/learn/LongestPalindromeSubstring.java" />
       </list>
     </option>
   </component>
@@ -109,9 +127,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1920" />
     <option name="height" value="877" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -208,6 +226,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -279,6 +298,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="lang" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="learn" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -297,6 +325,11 @@
     <property name="project.structure.side.proportion" value="0.6161859" />
     <property name="settings.editor.selected.configurable" value="template.copyright.formatting" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="hello.learn" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -309,12 +342,35 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SingleString">
+  <component name="RunManager" selected="JUnit.LongestPalindromeSubstring.bruteForce">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="LongestPalindromeSubstring.bruteForce" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="hello.learn" />
+      <option name="MAIN_CLASS_NAME" value="hello.learn.LongestPalindromeSubstring" />
+      <option name="METHOD_NAME" value="bruteForce" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="SingleString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="learn" />
@@ -339,7 +395,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SingleString.firstDupe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingleString.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="learn" />
       <extension name="coverage">
         <pattern>
@@ -351,7 +407,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="hello.learn" />
       <option name="MAIN_CLASS_NAME" value="hello.learn.SingleString" />
-      <option name="METHOD_NAME" value="firstDupe" />
+      <option name="METHOD_NAME" value="isPalindrome" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -362,7 +418,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="SingleString.firstNonDupe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SingleString.reverse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="learn" />
       <extension name="coverage">
         <pattern>
@@ -374,53 +430,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="hello.learn" />
       <option name="MAIN_CLASS_NAME" value="hello.learn.SingleString" />
-      <option name="METHOD_NAME" value="firstNonDupe" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SingleString.isCharAllUnique" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.learn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hello.learn" />
-      <option name="MAIN_CLASS_NAME" value="hello.learn.SingleString" />
-      <option name="METHOD_NAME" value="isCharAllUnique" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="SingleString.longestRepeatSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="learn" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.learn.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hello.learn" />
-      <option name="MAIN_CLASS_NAME" value="hello.learn.SingleString" />
-      <option name="METHOD_NAME" value="longestRepeatSequence" />
+      <option name="METHOD_NAME" value="reverse" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -447,6 +457,9 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="Scratch" type="Java Scratch" factoryName="Java Scratch" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Scratch" />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -470,19 +483,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.SingleString.firstDupe" />
-      <item itemvalue="JUnit.SingleString.firstNonDupe" />
       <item itemvalue="JUnit.SingleString" />
-      <item itemvalue="JUnit.SingleString.isCharAllUnique" />
-      <item itemvalue="JUnit.SingleString.longestRepeatSequence" />
+      <item itemvalue="JUnit.SingleString.reverse" />
+      <item itemvalue="JUnit.SingleString.isPalindrome" />
+      <item itemvalue="Java Scratch.Scratch" />
+      <item itemvalue="JUnit.LongestPalindromeSubstring.bruteForce" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LongestPalindromeSubstring.bruteForce" />
+        <item itemvalue="Java Scratch.Scratch" />
         <item itemvalue="JUnit.SingleString" />
-        <item itemvalue="JUnit.SingleString.longestRepeatSequence" />
-        <item itemvalue="JUnit.SingleString.isCharAllUnique" />
-        <item itemvalue="JUnit.SingleString.firstNonDupe" />
-        <item itemvalue="JUnit.SingleString.firstDupe" />
+        <item itemvalue="JUnit.SingleString.isPalindrome" />
+        <item itemvalue="JUnit.SingleString.reverse" />
       </list>
     </recent_temporary>
   </component>
@@ -498,77 +511,79 @@
       <updated>1526498154855</updated>
       <workItem from="1526498158607" duration="174000" />
       <workItem from="1526498357800" duration="139000" />
-      <workItem from="1526498532332" duration="12735000" />
+      <workItem from="1526498532332" duration="13747000" />
+      <workItem from="1526624999983" duration="5088000" />
+      <workItem from="1526690976545" duration="8244000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringQuestions_longestRepeatSequence - 2018.05.16 at 23h 05m 37s.xml">
-      <configuration name="StringQuestions.longestRepeatSequence" configurationId="JUnit" />
+    <history-entry file="SingleString_isPalindrome - 2018.05.18 at 19h 22m 54s.xml">
+      <configuration name="SingleString.isPalindrome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringQuestions_longestRepeatSequence - 2018.05.16 at 23h 05m 43s.xml">
-      <configuration name="StringQuestions.longestRepeatSequence" configurationId="JUnit" />
+    <history-entry file="SingleString_isPalindrome - 2018.05.18 at 19h 23m 37s.xml">
+      <configuration name="SingleString.isPalindrome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringQuestions_longestRepeatSequence - 2018.05.16 at 23h 16m 34s.xml">
-      <configuration name="StringQuestions.longestRepeatSequence" configurationId="JUnit" />
+    <history-entry file="SingleString_isPalindrome - 2018.05.18 at 19h 23m 41s.xml">
+      <configuration name="SingleString.isPalindrome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringQuestions_longestRepeatSequence - 2018.05.16 at 23h 16m 38s.xml">
-      <configuration name="StringQuestions.longestRepeatSequence" configurationId="JUnit" />
+    <history-entry file="SingleString_isPalindrome - 2018.05.18 at 19h 25m 29s.xml">
+      <configuration name="SingleString.isPalindrome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringQuestions_longestRepeatSequence - 2018.05.16 at 23h 17m 41s.xml">
-      <configuration name="StringQuestions.longestRepeatSequence" configurationId="JUnit" />
+    <history-entry file="SingleString_isPalindrome - 2018.05.18 at 19h 25m 33s.xml">
+      <configuration name="SingleString.isPalindrome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringQuestions_longestRepeatSequence - 2018.05.16 at 23h 18m 34s.xml">
-      <configuration name="StringQuestions.longestRepeatSequence" configurationId="JUnit" />
+    <history-entry file="SingleString_isPalindrome - 2018.05.18 at 19h 33m 35s.xml">
+      <configuration name="SingleString.isPalindrome" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringQuestions_longestRepeatSequence - 2018.05.16 at 23h 19m 36s.xml">
-      <configuration name="StringQuestions.longestRepeatSequence" configurationId="JUnit" />
+    <history-entry file="SingleString - 2018.05.18 at 19h 49m 27s.xml">
+      <configuration name="SingleString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringQuestions_longestRepeatSequence - 2018.05.16 at 23h 23m 26s.xml">
-      <configuration name="StringQuestions.longestRepeatSequence" configurationId="JUnit" />
+    <history-entry file="LongestPalindromeSubstring_bruteForce - 2018.05.20 at 00h 38m 54s.xml">
+      <configuration name="LongestPalindromeSubstring.bruteForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringQuestions_longestRepeatSequence - 2018.05.16 at 23h 26m 16s.xml">
-      <configuration name="StringQuestions.longestRepeatSequence" configurationId="JUnit" />
+    <history-entry file="LongestPalindromeSubstring_bruteForce - 2018.05.20 at 00h 40m 52s.xml">
+      <configuration name="LongestPalindromeSubstring.bruteForce" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringQuestions - 2018.05.16 at 23h 27m 06s.xml">
-      <configuration name="StringQuestions" configurationId="JUnit" />
+    <history-entry file="LongestPalindromeSubstring_bruteForce - 2018.05.20 at 00h 42m 40s.xml">
+      <configuration name="LongestPalindromeSubstring.bruteForce" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13048000" />
+    <option name="totallyTimeSpent" value="27392000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <frame x="0" y="24" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Tool Output" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50072044" side_tool="true" weight="0.35607094" />
       <window_info anchor="bottom" id="JRebel Console" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3299712" />
-      <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="JRebel Executor" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="ANTLR Preview" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Structure" order="1" sideWeight="0.50206614" side_tool="true" weight="0.26729107" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.29331514" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32952926" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Regex Tester" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35607094" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49927953" visible="true" weight="0.33969986" />
       <window_info anchor="bottom" id="Sequence" order="7" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25864553" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979339" weight="0.26729107" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info anchor="bottom" id="SonarLint" order="7" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -585,40 +600,40 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info id="JRebel" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.35607094" />
-      <window_info anchor="bottom" id="Sequence" order="8" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49927953" visible="true" weight="0.33969986" />
+      <window_info anchor="bottom" id="Sequence" order="7" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="CheckStyle" order="10" />
-      <window_info anchor="bottom" id="Tool Output" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Statistic" order="13" />
-      <window_info anchor="bottom" id="SonarLint" order="14" />
+      <window_info anchor="bottom" id="CheckStyle" order="9" />
+      <window_info anchor="bottom" id="Tool Output" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50072044" side_tool="true" weight="0.35607094" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Statistic" order="12" />
+      <window_info anchor="bottom" id="SonarLint" order="13" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="16" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.3299712" />
-      <window_info anchor="bottom" id="ANTLR Preview" order="17" />
-      <window_info anchor="bottom" id="JRebel Console" order="18" side_tool="true" />
-      <window_info anchor="bottom" id="JRebel Executor" order="19" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25864553" />
-      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="ANTLR Preview" order="16" />
+      <window_info anchor="bottom" id="JRebel Console" order="17" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="18" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4979339" visible="true" weight="0.26729107" />
+      <window_info anchor="bottom" id="Messages" order="20" weight="0.32952926" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Regex Tester" order="20" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.29331514" />
+      <window_info id="Structure" order="1" sideWeight="0.50206614" side_tool="true" visible="true" weight="0.26729107" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Regex Tester" order="19" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.29331514" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -629,25 +644,113 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="11" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/hello/learn/SingleString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="242" column="70" selection-start-line="242" selection-start-column="70" selection-end-line="242" selection-end-column="70" />
+          <folding>
+            <element signature="docComment;class#SingleString#0" />
+            <element signature="docComment;method#firstDupe#0;class#SingleString#0" />
+            <element signature="method#firstDupe#0;class#SingleString#0" />
+            <element signature="method#firstDupe#1;class#SingleString#0" />
+            <element signature="docComment;method#firstNonDupe#0;class#SingleString#0" />
+            <element signature="method#firstNonDupe#0;class#SingleString#0" />
+            <element signature="method#firstNonDupe#1;class#SingleString#0" />
+            <element signature="docComment;method#isAllCharsUnique#0;class#SingleString#0" />
+            <element signature="method#isAllCharsUnique#0;class#SingleString#0" />
+            <element signature="method#isAllCharsUnique#1;class#SingleString#0" />
+            <element signature="docComment;method#firstLongestRepeatSequence#0;class#SingleString#0" />
+            <element signature="method#firstLongestRepeatSequence#0;class#SingleString#0" />
+            <element signature="method#firstLongestRepeatSequence#1;class#SingleString#0" />
+            <element signature="docComment;method#findAllDuplicateChars#0;class#SingleString#0" />
+            <element signature="method#findAllDuplicateChars#0;class#SingleString#0" />
+            <element signature="method#findAllDuplicateChars#1;class#SingleString#0" />
+            <element signature="docComment;method#countGivenCharacterInStringWithoutUsingLoop#0;class#SingleString#0" />
+            <element signature="method#countGivenCharacterInStringWithoutUsingLoop#0;class#SingleString#0" />
+            <element signature="method#countGivenCharacterInStringWithoutUsingLoop#1;class#SingleString#0" />
+            <element signature="docComment;method#reverse#0;class#SingleString#0" />
+            <element signature="method#reverse#0;class#SingleString#0" />
+            <element signature="method#reverseUsingStack#0;class#SingleString#0" />
+            <element signature="method#reverseUsingRecursion#0;class#SingleString#0" />
+            <element signature="method#findAllPermutations#0;class#SingleString#0" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/CharSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1900">
+          <caret line="129" column="29" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hello/learn/SingleString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding>
+            <element signature="docComment;class#SingleString#0" />
+            <element signature="docComment;method#firstDupe#0;class#SingleString#0" />
+            <element signature="method#firstDupe#0;class#SingleString#0" />
+            <element signature="method#firstDupe#1;class#SingleString#0" />
+            <element signature="docComment;method#firstNonDupe#0;class#SingleString#0" />
+            <element signature="method#firstNonDupe#0;class#SingleString#0" />
+            <element signature="method#firstNonDupe#1;class#SingleString#0" />
+            <element signature="docComment;method#isAllCharsUnique#0;class#SingleString#0" />
+            <element signature="method#isAllCharsUnique#0;class#SingleString#0" />
+            <element signature="method#isAllCharsUnique#1;class#SingleString#0" />
+            <element signature="docComment;method#firstLongestRepeatSequence#0;class#SingleString#0" />
+            <element signature="method#firstLongestRepeatSequence#0;class#SingleString#0" />
+            <element signature="method#firstLongestRepeatSequence#1;class#SingleString#0" />
+            <element signature="docComment;method#findAllDuplicateChars#0;class#SingleString#0" />
+            <element signature="method#findAllDuplicateChars#0;class#SingleString#0" />
+            <element signature="method#findAllDuplicateChars#1;class#SingleString#0" />
+            <element signature="docComment;method#countGivenCharacterInStringWithoutUsingLoop#0;class#SingleString#0" />
+            <element signature="method#countGivenCharacterInStringWithoutUsingLoop#0;class#SingleString#0" />
+            <element signature="method#countGivenCharacterInStringWithoutUsingLoop#1;class#SingleString#0" />
+            <element signature="docComment;method#reverse#0;class#SingleString#0" />
+            <element signature="method#reverse#0;class#SingleString#0" />
+            <element signature="method#reverseUsingStack#0;class#SingleString#0" />
+            <element signature="method#reverseUsingRecursion#0;class#SingleString#0" />
+            <element signature="method#findAllPermutations#0;class#SingleString#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -658,7 +761,7 @@
     </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/src.zip!/java/lang/CharSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1599">
+        <state relative-caret-position="1900">
           <caret line="129" column="29" selection-start-line="129" selection-start-column="29" selection-end-line="129" selection-end-column="29" />
         </state>
       </provider>
@@ -670,12 +773,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="8" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/hello/learn/SingleString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="119" column="73" selection-start-line="119" selection-start-column="73" selection-end-line="119" selection-end-column="73" />
+        <state relative-caret-position="760">
+          <caret line="215" column="5" lean-forward="true" selection-start-line="215" selection-start-column="5" selection-end-line="215" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#SingleString#0" />
+            <element signature="docComment;method#firstDupe#0;class#SingleString#0" />
+            <element signature="method#firstDupe#0;class#SingleString#0" />
+            <element signature="method#firstDupe#1;class#SingleString#0" />
+            <element signature="docComment;method#firstNonDupe#0;class#SingleString#0" />
+            <element signature="method#firstNonDupe#0;class#SingleString#0" />
+            <element signature="method#firstNonDupe#1;class#SingleString#0" />
+            <element signature="docComment;method#isAllCharsUnique#0;class#SingleString#0" />
+            <element signature="method#isAllCharsUnique#0;class#SingleString#0" />
+            <element signature="method#isAllCharsUnique#1;class#SingleString#0" />
+            <element signature="docComment;method#firstLongestRepeatSequence#0;class#SingleString#0" />
+            <element signature="method#firstLongestRepeatSequence#0;class#SingleString#0" />
+            <element signature="method#firstLongestRepeatSequence#1;class#SingleString#0" />
+            <element signature="docComment;method#findAllDuplicateChars#0;class#SingleString#0" />
+            <element signature="method#findAllDuplicateChars#0;class#SingleString#0" />
+            <element signature="method#findAllDuplicateChars#1;class#SingleString#0" />
+            <element signature="docComment;method#countGivenCharacterInStringWithoutUsingLoop#0;class#SingleString#0" />
+            <element signature="method#countGivenCharacterInStringWithoutUsingLoop#0;class#SingleString#0" />
+            <element signature="method#countGivenCharacterInStringWithoutUsingLoop#1;class#SingleString#0" />
+            <element signature="docComment;method#reverse#0;class#SingleString#0" />
+            <element signature="method#reverse#0;class#SingleString#0" />
+            <element signature="method#reverseUsingStack#0;class#SingleString#0" />
+            <element signature="method#reverseUsingRecursion#0;class#SingleString#0" />
+            <element signature="method#findAllPermutations#0;class#SingleString#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/hello/learn/LongestPalindromeSubstring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
+          <folding>
+            <element signature="docComment;class#LongestPalindromeSubstring#0" />
           </folding>
         </state>
       </provider>
