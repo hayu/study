@@ -1,4 +1,4 @@
-package leetcode.ex1;
+package ex1;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -13,15 +13,12 @@ public class Solution {
     public static int[] twoSum(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0, len = nums.length; i < len; i++) {
-            map.put(nums[i], i);
-        }
-        for (int i = 0, len = nums.length; i < len; i++) {
-            int diff = target - nums[i];
-            if (map.containsKey(diff) && map.get(diff) != i) {
-                return new int[] {i, map.get(diff)};
+            Integer diffIdx = map.get(target - nums[i]);
+            if (diffIdx != null) {
+                return new int[] {diffIdx, i};
             }
             map.put(nums[i], i);
         }
-        throw new IllegalArgumentException("Input has not solution");
+        return new int[] {}; // throwing exception costs more memory than return empty solution
     }
 }
