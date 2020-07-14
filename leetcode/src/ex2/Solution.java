@@ -38,15 +38,15 @@ public class Solution {
      */
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         System.out.println("l1="+l1+", l2="+l2);
-        ListNode rslt = new ListNode();
+        ListNode rslt = new ListNode(); // the next of this result captures the first node of the sum
         ListNode head = rslt;
 
-        int val = 0;
+        int sum = 0;
         int carry = 0;
-        while (l1 != null || l2 != null) {
-            val = carry + (l1 == null ? 0 : l1.val) + (l2 == null ? 0 : l2.val);
-            carry = val / 10;
-            head.next = new ListNode(val % 10);
+        while (l1 != null || l2 != null) { // keep processing as long as one of them still has data
+            sum = carry + (l1 == null ? 0 : l1.val) + (l2 == null ? 0 : l2.val);
+            carry = sum / 10;
+            head.next = new ListNode(sum % 10);
             head = head.next;
 
             if (l1 != null) {
