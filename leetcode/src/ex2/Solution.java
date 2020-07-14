@@ -45,8 +45,9 @@ public class Solution {
         int carry = 0;
         while (l1 != null || l2 != null) {
             val = carry + (l1 == null ? 0 : l1.val) + (l2 == null ? 0 : l2.val);
-            head.val = val % 10;
             carry = val / 10;
+            head.next = new ListNode(val % 10);
+            head = head.next;
 
             if (l1 != null) {
                 l1 = l1.next;
@@ -54,18 +55,13 @@ public class Solution {
             if (l2 != null) {
                 l2 = l2.next;
             }
-
-            if (l1 != null || l2 != null) {
-                head.next = new ListNode();
-                head = head.next;
-            }
         }
 
         if (carry > 0) {
             head.next = new ListNode(carry);
         }
 
-        return rslt;
+        return rslt.next;
     }
 
     static class ListNode {
